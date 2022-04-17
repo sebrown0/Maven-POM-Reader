@@ -39,6 +39,13 @@
         
 	</properties>
 
+	<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///C:/Users/Brown/.m2/repository/com/sebrown/MavenPomReader</url>
+       </repository>
+   	</distributionManagement>
     <build>
 	    <finalName>@{project.version}</finalName>
 	    <plugins>
