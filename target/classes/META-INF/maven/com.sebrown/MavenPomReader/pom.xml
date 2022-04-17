@@ -12,22 +12,22 @@
     </scm>
     
 	<properties>
-	
+	<!-- 
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     	<maven.compiler.release>17.0.1</maven.compiler.release> 		    
  		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>       
         
-        <!-- 
+        -->
  		<maven.compiler.source>${java.version}</maven.compiler.source>
  		<maven.compiler.target>${java.version}</maven.compiler.target>    
  		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        -->
+        
 	</properties>
 
     <build>
-	    <finalName>parent_jar</finalName>
+	    <finalName>@{project.version}</finalName>
 	    <plugins>
 	    	<plugin>
 	        	<groupId>org.apache.maven.plugins</groupId>
@@ -49,7 +49,12 @@
     </build>
 
   	<dependencies>
-  	     <dependency>
+		<dependency>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-install-plugin</artifactId>
+		    <version>3.0.0-M1</version>
+		</dependency>
+  	    <dependency>
 	     	<groupId>org.codehaus.mojo</groupId>
 	        <artifactId>build-helper-maven-plugin</artifactId>
 	        <version>3.3.0</version>
