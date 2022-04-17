@@ -8,7 +8,7 @@
 	    <url>https://git@github.com:sebrown0/Maven-POM-Reader.git</url> <!-- URL HTTP de clone do projeto -->
 	    <connection>scm:git:https://git@github.com:sebrown0/Maven-POM-Reader.git</connection> <!-- URL HTTP de clone do projeto -->
 	    <developerConnection>scm:git:https://git@github.com:sebrown0/Maven-POM-Reader.git</developerConnection> <!-- URL HTTP de clone do projeto -->
-	    <tag>MavenPomReader_1_0_0</tag>
+	    <tag>@{project.version}</tag>
     </scm>
     
 	<properties>
