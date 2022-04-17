@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sebrown</groupId>
   <artifactId>MavenPomReader</artifactId>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.2.0</version>
 
 	<scm>
 	    <url>https://git@github.com:sebrown0/Maven-POM-Reader.git</url> <!-- URL HTTP de clone do projeto -->
