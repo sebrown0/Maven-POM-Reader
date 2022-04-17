@@ -5,7 +5,7 @@
   <version>1.2.0-SNAPSHOT</version>
 
 	<scm>
-	    <url>https://git@github.com:sebrown0/Maven-POM-Reader.git</url> <!-- URL HTTP de clone do projeto -->
+	    <url>https://github.com/sebrown0/Maven-POM-Reader.git</url>
 	    <connection>scm:git:https://git@github.com:sebrown0/Maven-POM-Reader.git</connection> <!-- URL HTTP de clone do projeto -->
 	    <developerConnection>scm:git:https://git@github.com:sebrown0/Maven-POM-Reader.git</developerConnection> <!-- URL HTTP de clone do projeto -->
 	    <tag>1.2.0</tag>
