@@ -12,6 +12,7 @@ class PomReaderTest {
 		
 	@Test
 	void newPomReader() {
+		System.out.println("->"+System.getProperty("java.version"));
 		PomReader reader = new PomReader();	
 		assertTrue(reader != null);
 	}
